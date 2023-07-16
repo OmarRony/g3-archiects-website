@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,900;1,400&family=Work+Sans:wght@400;600;700;800&display=swap');
 
 *{
+    
     font-family: 'Lato', sans-serif;
-     font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  
 }
 header{
     background-color:rgba(255, 144, 14, 0.10);;
@@ -18,7 +21,7 @@ header{
 }
 
 .header-text{
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 700;
     color:#131313
 }
@@ -40,24 +43,43 @@ nav>ul>li>a{
     
 }
 
-.banner-text{
-    text-align: center;
-}
-.banner-para{
-    text-align: center;
-}
-.primary-btn{
-    padding: 20px 30px;
-    color:white;
-    border-radius: 5px;
-    border: none;
-    background-color:#FF900E;
 
-
-}
-
-.banner{
+.banner-content{
     max-width: 800px;
     margin:0 auto;
     text-align: center;
+    
 }
+
+.banner-text{
+    font-weight: 700;
+    color:#131313;
+    font-size: 4rem;
+    margin-top: 80px;
+}
+.banner-para{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+    margin-top:20px;
+    
+}
+.primary-btn{
+    padding: 20px 25px;
+    color:white;
+    border-radius: 8px;
+    border: 0;
+    background-color:#FF900E;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.banner img{
+    width: 100%;
+}
+
+
+
+
+
